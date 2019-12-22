@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Victim Registeration Form</title>
+
+        <!-- Font Icon -->
+        <link rel="stylesheet" href="html_forms/fonts/material-icon/css/material-design-iconic-font.min.css">
+        <link rel="stylesheet" href="html_forms/vendor/nouislider/nouislider.min.css">
+
+        <!-- Main css -->
+        <link rel="stylesheet" href="html_forms/css/style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <div class="signup-content">
+                        <div class="signup-img">
+                                <img src="images/rep.jpg" alt="" style="height: 85%">
+                                <div class="signup-img-content">
+                                    <h2 style="margin-top:-400px;"><i>"No one can help you if you are not willing to help yourself"</i></h2>
+                                </div>
+                        </div>
+                    <div class="signup-form">
+                        <form method="POST" action="/addVictim" class="register-form" id="register-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <div class="form-input">
+                                        <label for="victim_name" class="required">Full Name</label>
+                                        <input type="text" name="victim_name" id="victim_name" />
+                                    </div>
+                                    <div class="label-flex">
+                                        <label for="gender" class="required">Gender</label>
+                                        <a href="#" class="form-link"></a>
+                                    </div>
+                                    <div class="form-radio-group">
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="gender" value="Male" id="Male">
+                                            <label for="Male">Male</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="gender" value="Female" id="Female">
+                                            <label for="Female">Female</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="gender" value="Others" id="Others">
+                                            <label for="Others">Others</label>
+                                            <span class="check"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="age" class="required">Age</label>
+                                        <input type="text" name="age" id="age" />
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="contactno" class="required">Contact Number</label>
+                                        <input type="text" name="contactno" id="contactno" />
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="email" class="required">Email</label>
+                                        <input type="text" name="email" id="email" />
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="address" class="required">Address</label>
+                                        <input type="text" name="address" id="address" rows="5" cols="55" />
+                                    </div>
+
+                                    <div class="form-input">
+                                        <label for="description" class="required">Description</label>
+                                        <input type="text" name="description" id="description" rows="5" cols="115" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-select">
+                                        <div class="label-flex">
+                                            <label for="state" class="required">State</label>
+                                            <a href="#" class="form-link"></a>
+                                        </div>
+                                        <div class="select-list">
+                                            <select name="state" id="state">
+                                                <option value="">Select State</option>
+                                                <option value="Jerusalem">Jerusalem</option>
+                                                <option value="Tel Aviv">Tel Aviv</option>
+                                                <option value="West Jerusalem">West Jerusalem</option>
+                                                <option value="Haifa">Haifa</option>
+                                                <option value="Ashdod">Ashdod</option>
+                                                <option value="Rishon LeẔiyyon">Rishon LeẔiyyon</option>
+                                                <option value="Petaẖ Tiqwa">Petaẖ Tiqwa</option>
+                                                <option value="Beersheba">Beersheba</option>
+                                                <option value="Netanya">Netanya</option>
+                                                <option value="Nazareth	">Nazareth	</option>
+                                                <option value="Bet Shemesh	">Bet Shemesh	</option>
+                                                <option value="Bet Shemesh	">Bet Shemesh	</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-radio">
+                                        <div class="label-flex">
+                                            <label for="issueFacing" class="required">Issue Facing</label>
+                                            <a href="#" class="form-link"></a>
+                                        </div>
+                                        <div class="form-radio-group">
+                                            <div class="form-radio-item">
+                                                <input type="radio" name="issueFacing" value="Domestic Abuse" id="abuse">
+                                                <label for="abuse">Domestic Abuse</label>
+                                                <span class="check"></span>
+                                            </div>
+                                            <div class="form-radio-item">
+                                                <input type="radio" name="issueFacing" value="Dowry Harrasment" id="dowry">
+                                                <label for="dowry">Dowry Harrasment</label>
+                                                <span class="check"></span>
+                                            </div>
+                                            <div class="form-radio-item">
+                                                <input type="radio" name="issueFacing" value="Death Threats" id="death">
+                                                <label for="death">Death Threats</label>
+                                                <span class="check"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-radio">
+                                        <div class="label-flex">
+                                            <label for="abuse_status" class="required">Is it still happening?</label>
+                                            <a href="#" class="form-link"></a>
+                                        </div>
+                                        <div class="form-radio-group">
+                                            <div class="form-radio-item">
+                                                <input type="radio" name="abuse_status" value="Yes" id="Yes">
+                                                <label for="Yes">Yes</label>
+                                                <span class="check"></span>
+                                            </div>
+                                            <div class="form-radio-item">
+                                                <input type="radio" name="abuse_status" value="No" id="No">
+                                                <label for="No">No</label>
+                                                <span class="check"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-radio">
+                                        <div class="label-flex">
+                                            <label for="extent_abuse" class="required">Extent of Abuse</label>
+                                            <a href="#" class="form-link"></a>
+                                        </div>
+                                        <div class="form-radio-group">
+                                            <div class="form-radio-item">
+                                                <input type="radio" name="extent_abuse" value="Just Started" id="started">
+                                                <label for="started">Just Started</label>
+                                                <span class="check"></span>
+                                            </div>
+                                            <div class="form-radio-item">
+                                                <input type="radio" name="extent_abuse" value="Intermediate" id="Intermediate">
+                                                <label for="Intermediate">Intermediate</label>
+                                                <span class="check"></span>
+                                            </div>
+                                            <div class="form-radio-item">
+                                                <input type="radio" name="extent_abuse" value="High" id="high">
+                                                <label for="high">High</label>
+                                                <span class="check"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="criminalName" class="required">Criminal Name</label>
+                                        <input type="text" name="criminalName" id="criminalName" />
+                                    </div>
+
+                                    <div class="form-radio">
+                                        <div class="label-flex">
+                                            <label for="relationWithCriminal" id="relationWithCriminal" class="required">Relation with Criminal</label>
+                                            <a href="#" class="form-link"></a>
+                                        </div>
+                                        <div class="form-radio-group">
+                                            <div class="form-radio-item">
+                                                <input type="radio" name="relationWithCriminal" value="Father-in-Law" id="father">
+                                                <label for="father">Father-in-law</label>
+                                                <span class="check"></span>
+                                            </div>
+                                            <div class="form-radio-item">
+                                                <input type="radio" name="relationWithCriminal" value="Mother-In-Law" id="mother">
+                                                <label for="mother">Mother-in-law</label>
+                                                <span class="check"></span>
+                                            </div>
+                                            <div class="form-radio-item">
+                                                <input type="radio" name="relationWithCriminal" value="Others" id="other">
+                                                <label for="other">Other</label>
+                                                <span class="check"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-submit">
+                                            <button type="submit" value="Submit" class="submit" id="submit" name="submit">Submit</button>
+                                            <button type="reset" value="Reset" class="submit" id="reset" name="reset">Reset</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- JS -->
+        <script src="html_forms/vendor/jquery/jquery.min.js"></script>
+        <script src="html_forms/vendor/nouislider/nouislider.min.js"></script>
+        <script src="html_forms/vendor/wnumb/wNumb.js"></script>
+        <script src="html_forms/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="html_forms/vendor/jquery-validation/dist/additional-methods.min.js"></script>
+        <script src="html_forms/js/main.js"></script>
+    </body>
+</html>

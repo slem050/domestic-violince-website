@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ShoutUp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" >
+    <div class="site-wrap">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+<!-- Header Section -->
+      <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-6 col-xl-2">
+              <h1 class="mb-0 site-logo" style="font-size:35px;"><a href="index.html" class="mb-0">ShoutUp</a></h1>
+            </div>
+            <div class="col-12 col-md-10 d-none d-xl-block">
+              <nav class="site-navigation position-relative text-right" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                    <li><a href="#contact-section" class="nav-link">ציר קשר</a></li>
+                      <li><a href="#testimonials-section" class="nav-link">סיפורי הצלחה</a></li>
+                        <li><a href="#services-section" class="nav-link">שירות</a></li>
+                        <li><a href="#team-section" class="nav-link">צוות</a></li>
+                          <li><a href="#about-section" class="nav-link">מידע</a></li>
+                  <li><a href="#home-section" class="nav-link">דף הבית</a></li>
+
+
+
+
+
+                </ul>
+              </nav>
+            </div>
+            <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+          </div>
+        </div>
+      </header>
+<!-- BackGround Image Section -->
+      <div class="site-blocks-cover overlay" style="background-image: url(images/stopphoto.png);" data-aos="fade" id="home-section">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-8 mt-lg-5 text-center">
+              <div data-aos="fade-up" data-aos-delay="100" style = "margin-bottom:50px; float: left; margin-left: 180px;">
+                <button onclick="Victim()" class="btn smoothscroll btn-danger mr-2 mb-2" style="background-color:#d3145a;">דווח על אלימות</button>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="100" style= "float:left;">
+                <button onclick="RF()" class="btn smoothscroll btn-danger mr-2 mb-2" style="background-color:#d3145a;">דווח כחבר</button>
+              </div>
+              <br><br>
+              <center>
+                <div data-aos="fade-up" data-aos-delay="100" style= "float: left; margin-left: -90px">
+                <button onclick="NGO()" class="btn smoothscroll btn-danger mr-2 mb-2" style="background-color:#d3145a;"> NGO-הירשם כ</button>
+              </div>
+              </center>
+            </div>
+          </div>
+        </div>
+        <a href="#about-section" class="mouse smoothscroll">
+          <span class="mouse-icon">
+            <span class="mouse-wheel"></span>
+          </span>
+        </a>
+      </div>
+      <br>
+      <!-- INTRO SECTION -->
+      <div>
+        <div data-aos="fade-up-left">
+        <h2 style=" direction: rtl;color:#d3145a;margin:0px 0px 0px 20px;font-weight:bold;font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';">&nbsp  &nbsp   מהי אלימות במשפחה </h2>
+       <p style=" direction: rtl;margin:0px 0px 0px 20px;font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; text-align: center;">
+&nbsp &nbsp אלימות במשפחה היא דפוס של התנהגות כפייה ושולטת זה יכול לכלול<strong>התעללות גופנית, התעללות רגשית או פסיכולוגית, שימוש לרעה מינית או שימוש לרעה כספית</strong> (באמצעות כסף וכלים פיננסיים להפעיל שליטה). ישנם מתעללים המסוגלים להפעיל שליטה מלאה על כל פעולה של הקורבן בלי להשתמש באלימות או רק .באמצעות איומי אלימות עדינים. כל סוגי ההתעללות הם הרסני לקורבנו לניצולים חשוב לדעת שההתעללות אינה באשמתם, וכי הם לא לבד. לאלו שחווים אלימות במשפחה. הם רק צריכים לדווח באתר שלנו ואנחנו נעזור להם
+<strong>בכל דרך</strong>
+דרך לצאת ממשבר זה</p>
+      </div>
+      <br>
+      <div data-aos="fade-up-right">
+        <h2 style="color:#d3145a;margin:0px 0px 0px 20px;font-weight:bold;font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';"> &nbsp  &nbsp  האם מתעללים מראים סימני אזהרה פוטנציאליים </h2>
+            <p style="margin:0px 0px 0px 20px;font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; ">&nbsp  &nbsp  &nbsp &nbsp     אין דרך לאתר מתעלל בקהל, אך מרבית המתעללים חולקים כמה מאפיינים משותפים. חלק מסימני האזהרה העדינים כוללים?
+              <ul class="demo-list">
+              <li> הם מתעקשים לעבור במהירות למערכת יחסים.</li>
+              <li> הם יכולים להיות מקסימים מאוד ועשויים להיראות "טובים מכדי להיות אמיתיים.</li>
+              <li> הם מתעקשים שתפסיק להשתתף בפעילויות הפנאי המועדפות עליך או לבלות עם המשפחה והחברים.</li>
+              <li> הם קנאים או שולטים במיוחד.</li>
+              <li> הם לא לוקחים אחריות על מעשיהם ומאשימים אחרים בכל מה שמשתבש.</li>
+              <li> הם מבקרים את המראה של בן זוגם ומבצעים כישלונות תכופים.</li>
+              <li> המילים והמעשים שלהם אינם תואמים.</li>
+
+                חשוב לזכור כי אלימות במשפחה היא בראש ובראשונה דפוס של כוח ושליטה
+              </ul>
+            </p>
+          </div>
+          <br>
+          <div data-aos="fade-up-left">
+              <h3 style="color:#d3145a;margin:0px 0px 0px 20px;font-weight:bold;font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';">&nbsp   &nbsp  לפי ה
+            <a href="https://www.therecoveryvillage.com/resources/domestic-violence/" target="_blank" rel="noopener noreferrer" style="color:#d3145a;">Recovery Village</a></h3>
+            <p style="margin:0px 0px 0px 20px;font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; ">
+              <em>
+              &nbsp  &nbsp &nbsp  &nbsp       אם אתם מעורבים במערכת יחסים פוגעת, אתם עשויים לחשוב כי אין מוצא, אך יש, והסכנות של להישאר יכולות להיות גרועות בהרבה מאלה של יציאה.<br>
+              &nbsp  &nbsp &nbsp  &nbsp     הישארות בסביבה הרעילה והמסוכנת של אלימות במשפחה עלולה לסכן את חייך  <br>
+              &nbsp  &nbsp &nbsp  &nbsp       הישארות עלולה לסכן גם אחרים בחיים שלך. לעתים קרובות, מתעללים מוציאים את כעסם על כל מי שדרכם, אפילו - או במיוחד - ילדים.        <br>
+              &nbsp  &nbsp  &nbsp  &nbsp      ומלבד הסכנות הפיזיות הברורות של התעללות, ישנן מספר השלכות רגשיות אפשריות שיש לזכור עבור כל המעורבים, כולל דיכאון.
+              </em>
+            </p>
+          </div>
+          <br>
+        <div data-aos="fade-up-right">
+         <h2 style="color:#d3145a;margin:0px 0px 0px 20px;font-weight:bold;font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';">&nbsp  &nbsp  מהם המשאבים העומדים לרשות הקורבנות?</h2>
+         <p style="margin:0px 0px 0px 20px;font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; "><h5 style="margin:0px 0px 0px 20px;">&nbsp &nbsp &nbsp &nbspשלב אחד במעגל ההתעללות הוא הפנטזיה שהמתעלל ישפר.</h5>
+           <br><h5 style="margin:0px 0px 0px 20px;"><strong>&nbsp &nbsp &nbsp &nbspאנא הבינו את זה הם לא</strong></h5><br>
+           <ul class="demo-list">
+              <li><strong>&nbsp &nbspאל תחיו בתקווה השקרית שהדברים ישתפרו ביום מן הימי</strong></li>
+              <li><strong>&nbsp &nbsp אל תסתכל על אנשים אחרים כדי להציל אותך מההתעללות שלך</strong></li>
+              <li><strong>&nbsp &nbspאף אחד לא יכול לעזור לך אם אתה לא מוכן לעזור לעצמך</strong></li>
+              <li><strong>&nbsp &nbsp רק אתה יכול לנקוט בפעולה בשמך - באופן חוקי ורגשי</strong></li>
+              </ul>
+          </p>
+          </div>
+              <br>
+              <div data-aos="fade-up-left">
+              <h2 style="color:#d3145a;margin:0px 0px 0px 20px;font-weight:bold;font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';">&nbsp &nbsp איך אני יכול/ה לעזור?</h2>
+                   <p style="margin:0px 0px 0px 20px;font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; ">
+                      <a href="#donate-section"><strong><h5 style="margin:0px 0px 0px 20px"><font color="#808080">&nbsp &nbsp &nbsp &nbspתקשיב</font></h5></strong></a>
+                    <p style="text-align: center;margin:0px 0px 0px 20px;"> שתף את הדף הזה, תהיה 'NGO', זה לא משנה לך אבל זה יכול לשנות את חייו של מישהו. כל אדם יכול לנקוט בפעולה פרטנית ליצירת קהילה תומכת לניצולים. התערב בקהילה שלנו - יש לנו רעיונות להעלות קול נגד פשע כזה. ניתן להתקשר או ליצור איתנו קשר. אתה רק צריך למלא את הטופס, לדווח על כל סוג של התעללות בסביבתך ואנחנו מבטיחים כי אנו נעזור בדרך אפשרית מאוד לתמוך בך.</p>
+                </p>
+            </div>
+      </div>
+      <!-- ABOUT SECTION -->
+      <div class="site-section cta-big-image" id="about-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-12 text-center" data-aos="fade">
+              <h2 class="section-title mb-3">About us</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+              <figure class="circle-bg">
+              <img src="images/womensafety.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <figure class="circle-bg">
+                  <img src="images/about1.jpg" alt="Image" class="img-fluid">
+                  </figure>
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <div class="mb-4">
+                <p>we are two students in haifa University in out final year of information systems degree
+                    <strong>When a victim is reported on our website, we find the nearest NGO according to the
+                      preferences and we send those NGOs the details of the victims via Email.
+                      Then the necessary NGO takes suitable action seeing the urgency of the situation and stays
+                      in contact with us with the progress of the Victim.
+                    </strong>
+                    We provide full Confidentiality according to the concern of the Victim or someone who reports an abuse.
+                    <strong><br>Fake Reports are instantly caught and it will cause the reporter a fine of Rs. 1,00,000/-
+                      and jail for 5 months. <br>Fake NGO registerations can cause a fine upto Rs. 10,00,000/- and a jail for 1-2
+                      years.<br>
+                      Inactive NGOs are removed from the Database!!!<br>
+                    </strong>
+
+              </div>
+              <div class="mb-4">
+                <ul class="list-unstyled ul-check success">
+                  <li>Safe and Friendly Enviornment</li>
+                  <li>Education and Training Facilities</li>
+                  <li>Employment Opportunities</li>
+                  <li>Full Confidentiality throughout the Process</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TEAM SECTION -->
+      <section class="site-section border-bottom" id="team-section">
+        <div class="container">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-md-8 text-center">
+              <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Our Team</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="team-member">
+                <figure>
+                  <ul class="social">
+                    <li><a href="https://www.facebook.com/profile.php?id=100009147729584"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li><a href="https://www.linkedin.com/in/saleem-sabehi-815b23152//"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="https://www.instagram.com/slem050/"><span class="icon-instagram"></span></a></li>
+                    <li><a href="https://github.com/slem050"><span class="icon-github"></span></a></li>
+                  </ul>
+
+                  <img src="images/nitin.jpg" alt="Image" class="img-thumbnail" style="height:500px;width:300px">
+                </figure>
+                <div class="p-3">
+                  <h3>saleem sabeihe</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="team-member">
+                <figure>
+                  <ul class="social">
+                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                    <li><a href="#"><span class="icon-github"></span></a></li>
+                  </ul>
+                  <img src="images/pankhuri3.jpg" alt="Image" class="img-thumbnail" style="height:500px;width:350px">
+                </figure>
+                <div class="p-3">
+                  <h3>marwan keadan</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES SECTION -->
+      <section class="site-section border-bottom bg-light" id="services-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-12 text-center" data-aos="fade">
+              <h2 class="section-title mb-3">שירות שלנו</h2>
+            </div>
+          </div>
+          <div class="row align-items-stretch">
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+              <div class="unit-4">
+                <div class="unit-4-icon mr-4"><span class="text-primary flaticon-startup"></span></div>
+                <div>
+                  <h3  style="font-size:25px;font-weight:bold;text-decoration: underline;text-decoration-color:#d3145a;">מעקב פלילי</h3>
+                  <p>אנו מוצאים את העמותה הקרובה ביותר ותחנת המשטרה למיקום הקורבן
+באמצעות האלגוריתמים המדויקים ביותר שלנו.
+ובכך לנקוט בפעולה מיידית ומתאימה לפושע בהקדם האפשרי.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="unit-4">
+                <div class="unit-4-icon mr-4"><span class="text-primary flaticon-graphic-design"></span></div>
+                <div>
+                  <h3 style="font-size:25px;font-weight:bold;text-decoration: underline;text-decoration-color:#d3145a;">להילחם למען הצדק</h3>
+                  <p>
+                  אנו עוזרים לקורבנות להשיג צדק ולהילחם למענם בכל דרך אפשרית. אנו אפילו מספקים להם עורך דין או מעודדים אותם להגיש תיק על הפושע לפי צורך השעה.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="unit-4">
+                <div class="unit-4-icon mr-4"><span class="text-primary flaticon-hhhh"></span></div>
+                <div>
+                  <h3 style="font-size:25px;font-weight:bold;text-decoration: underline;text-decoration-color:#d3145a;">שותפות עם ארגונים לא ממשלתיים</h3>
+                  <p>
+כאשר קורבן לאלימות במשפחה נרשם לאתר שלנו, אנו מוצאים את העמותה הקרובה ביותר האפשרית ושולחים את הפרט של האדם הספציפי לאותו עמותה באמצעות דוא"ל. המשימה שלנו היא להגדיל את הגישה לצדק עבור ניצולי אלימות במשפחה, תקיפה מינית ועקירה על ידי עבודה עם אנשים במקצוע המשפטי.</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+      <!-- SUCCESS STORIES SECTION -->
+      <section class="site-section testimonial-wrap" id="testimonials-section" data-aos="fade" style="direction: ltr;" >
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Success Stories</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                 <p>&ldquo;sara hart has a fulfilling job with the ShoutUp Website which provides emergency accommodation and support to women and children. Almost 20 years ago, Savita was hospitalised for three months after her then husband doused her in turpentine and set her on fire. She suffered horrific injuries – but it was in the hospital that she realised for the first time she could leave her abuser, thanks to the vigilance of this website. She says she received excellent support and that it is possible to find happiness after abuse.&rdquo;</p>
+              </blockquote>
+
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <div><img src="images/roia.jpg" alt="Image" class="w-130 img-fluid"></div>
+                <p>sara hart</p>
+              </figure>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo;Rohita Devi is the author of Carving A Piece of Heaven, which documents her leaving story after almost two decades of being physically and emotionally abused. Namgay now works voluntarily with the ShoutUp, to lobby the government for policies to speed up recovery for victims.It became possible only because of ShoutUp website which led the Druk in the right direction and gave her support.&rdquo;</p>
+              </blockquote>
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <div><img src="images/faliana.jpg" alt="Image" class="w-130 img-fluid"></div>
+                <p>Rohita Devi</p>
+              </figure>
+
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo;Aayushi Srivastava runs horse workshops for troubled Indigenous youth, where she teaches them to care for and interact with the animals, and learn to give and receive trust. She is now expanding the program and hopes to bring adults with addiction problems into the program. She began the horse therapy clinics after leaving a violent relationship with the help of ShoutUp.&rdquo;</p>
+              </blockquote>
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <div><img src="images/kim.jpg" alt="Image" class="w-130 img-fluid"></div>
+                <p>Aayushi Srivastava</p>
+              </figure>
+            </div>
+          </div>
+          </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="site-section bg-light" id="contact-section" data-aos="fade">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-12 text-center">
+              <h2 class="section-title mb-3">Contact Us</h2>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-md-4 text-center">
+              <p class="mb-4">
+                <span class="icon-room d-block h4 text-primary"></span>
+                <span>haifa university</span>
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <p class="mb-4">
+                <span class="icon-phone d-block h4 text-primary"></span>
+                <span>+972 7837783777</span>
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <p class="mb-0">
+                <span class="icon-mail_outline d-block h4 text-primary"></span>
+                <span>sbsaleem76@gmail.com</span>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mb-5">
+              <form action="/mail" method="POST" class="p-5 bg-white">
+                <h2 class="h4 text-black mb-5">Contact Form</h2>
+                <div class="row form-group">
+                  <div class="col-md-6 mb-3 mb-md-0">
+                    <label class="text-black" for="fname">First Name</label>
+                    <input type="text" name = "firstName" id="fname" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="text-black" for="lname">Last Name</label>
+                    <input type="text" name = "lastName" id="lname" class="form-control">
+                  </div>
+                </div>
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <label class="text-black" for="email">Email</label>
+                    <input type="email" name = "username" id="email" class="form-control">
+                  </div>
+                </div>
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <label class="text-black" for="subject">Subject</label>
+                    <input type="subject" name = "subject" id="subject" class="form-control">
+                  </div>
+                </div>
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <label class="text-black" for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                  </div>
+                </div>
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><image src="images/top1.jpg" style="height: 110px ;width: 80px;"></image></button>
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="row">
+                <div class="col-md-5">
+                  <h2 class="footer-heading mb-4">
+                      <i>&ldquo;The more that we choose not to talk about domestic violence, the more we shy away from the issue, the more we lose.&rdquo;</i>
+                  </h2>
+                </div>
+                <div class="col-md-3 ml-auto">
+                  <h2 class="footer-heading mb-4">Quick Links</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#home-section" class="smoothscroll">Home</a></li>
+                    <li><a href="#about-section" class="smoothscroll">About Us</a></li>
+                    <li><a href="#team-section" class="smoothscroll">Team</a></li>
+                    <li><a href="#services-section" class="smoothscroll">Services</a></li>
+                    <li><a href="#testimonials-section" class="smoothscroll">Success Stories</a></li>
+                    <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h2 class="footer-heading mb-4">Follow Us</h2>
+                  <a href="https://www.facebook.com/gupta7nitin"><span class="icon-facebook"></span></a>
+                  <a href="https://twitter.com/Nitin__7"><span class="icon-twitter"></span></a>
+                  <a href="https://www.linkedin.com/in/gupta7nitin"><span class="icon-linkedin"></span></a>
+                  <a href="https://www.instagram.com/nitin_gupta.rm_cr7"><span class="icon-instagram"></span></a>
+                  <a href="https://github.com/nitin-1926"><span class="icon-github"></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <h2 class="footer-heading mb-4" id ="donate-section" style="text-align:center;">Donate For A Noble Cause</h2>
+              <ul class="list-unstyled" style="text-align:center;">
+                  <li>UPI ID : gupta7nitin@oksbi</li>
+                  <li>GPAY NO : +91 9653818180</li>
+                  <li>PAYTM NO : +91 9653818180</li>
+                </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </footer>
+    </div> <!-- .site-wrap -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      function Victim(){
+        window.location = "Victim.html";
+      }
+      function RF(){
+        window.location = "Rf.html";
+      }
+      function NGO(){
+        window.location = "NGo.html";
+      }
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>
